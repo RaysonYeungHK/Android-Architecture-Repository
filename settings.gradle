@@ -1,0 +1,3 @@
+rootProject.name='Repository'
+include ':app'
+include ':lib-arch'
