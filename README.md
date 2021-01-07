@@ -1,12 +1,12 @@
 # Android-Architecture-Repository
 
-#### Preparation
+### Preparation
 
 If you don't know what is repository pattern, please take a look this page.
 
 [Android Repository Pattern](https://developer.android.com/jetpack/docs/guide)
 
-#### Background
+### Background
 
 From the example that including the cache implementation. [Cache Data](https://developer.android.com/jetpack/docs/guide#cache-data)
 
@@ -23,7 +23,7 @@ cache(networkData)
 return networkData
 ```
 
-#### Information Detail
+### Information Detail
 
 Actually this process could be standardized.
 
@@ -50,7 +50,7 @@ In summary, the common pattern of the different cache strategies can be visualiz
 
 With standardized cooperator, the data provider could focus on its duty.
 
-#### Example
+### Example
 
 [Implementation of User Repository](app/src/main/java/com/codedeco/lib/arch/repository/example)
 
@@ -58,7 +58,7 @@ With standardized cooperator, the data provider could focus on its duty.
 
 P.S. Local is NOT disk cache, it just mean local file.
 
-#### Integration Guideline
+### Integration Guideline
 1. Prepare you interface and implementation for the data provider
 ```
 interface FooService {
